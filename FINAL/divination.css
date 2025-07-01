@@ -1,0 +1,147 @@
+@font-face {
+  font-family: PorkyFont;
+  src: url(../fonts/PORKYS_.TTF);
+}
+
+html{
+  font-family: PorkyFont;
+}
+
+body {
+    /* background-color: aqua; */
+    background-image: url("../images/chip-backdrop.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%; 
+}
+
+h1{
+  background-color: rgb(255, 217, 0);
+  color: rgb(255, 89, 0);
+  padding: 10px;
+  /* margin-left: 100px; */
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 17px;
+  text-align: center;
+  
+}
+
+h2{
+    
+  background-color: rgb(255, 217, 0);
+  color: rgb(255, 89, 0);
+  padding: 10px;
+  /* margin-left: 100px; */
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 17px;
+  text-align: center;
+  
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 89, 0);;
+}
+  a:hover{
+    color: rgb(255, 217, 0);
+  }
+
+#chip{
+  width: 20%;
+  position:fixed;
+  bottom: 70px;
+  left:70%;
+  min-width: 200px;
+}
+
+
+#fetchFactBtn{
+  display: flex;
+  flex-wrap: wrap;
+  /* visibility: hidden; */
+  /* flex-direction: row; */
+} 
+  #fetchFactBtn img{
+    width: 100px;
+
+  }
+  #fetchFactBtn :hover{
+    visibility: visible;
+  }
+  
+
+
+.container {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+button{
+  background-color: #04aa6d00;
+  color: blue;
+  border: none;
+  padding: 30px;
+  margin-right: 10%;
+  /* visibility: hidden; */
+}
+  button img{
+    width: 20%;
+    opacity: 0;
+
+  }
+
+  button :hover{
+    cursor: pointer;
+    /* visibility: visible; */
+    opacity: 1;
+    animation: rotateLink 2s forwards;
+  }
+
+  @keyframes rotateLink {
+    from {
+        
+        transform: rotate(360deg);
+    }
+    25%{
+        
+        transform: rotate(180deg);
+
+    }
+    50% {
+        
+        transform: rotate(360deg);
+    }
+    to {
+        
+        transform: rotate(0deg);
+    }
+   
+
+    
+}
+
+#backbutt{
+  background-color: rgb(255, 217, 0);
+  color: rgb(255, 89, 0);
+  position:fixed;
+  top:0px;
+  padding: 10px;
+  border-radius: 17px;
+  font-size: 30px;
+}
+  #backbutt:hover{
+    background-color: rgb(255, 89, 0);
+  }
+
+footer{
+  background-color: rgb(255, 217, 0);
+  color: rgb(255, 89, 0);
+  position:fixed;
+  font-size: large;
+  bottom:0px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 17px;
+  /* left:28%; */
+}

@@ -1,10 +1,10 @@
 @font-face {
     font-family: PorkyFont;
-    src: url(fonts/PORKYS_.TTF);
+    src: url(../fonts/PORKYS_.TTF);
 }
 
 html {
-    background-color: rgb(255, 123, 0);
+    background-color: rgb(255, 140, 0);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
@@ -21,6 +21,10 @@ h1 {
     font-family: PorkyFont;
     text-align: center;
     text-decoration: none;
+    background-color: #87D3E2;
+    padding: 10px;
+    border-radius: 20px;
+    
 }
     h1 :hover{
         color: rgb(52, 52, 232);
@@ -30,6 +34,7 @@ h1 {
 
 #nav{
     font-size: 15px;
+
     text-align: center;
     position: sticky;
     padding: 1px;
@@ -91,68 +96,8 @@ h1 {
     border-radius: 10px;
 }
 
-#onec-grid{
-	padding:2em;
-	display: grid;
-	grid-template-columns: 300px 150px 300px;
-	grid-template-rows: 150px 150px 150px 150px 300px 300px 300px;
-	gap: 10px;
-    justify-content: center;
-}
-    #onec-grid p{
-        color: rgb(255, 255, 255);
-        font-size: 35px;
-        line-height: 45px;
-        font-weight: bold;
-        background-color: #00A79D;
-        padding: 10px;
-        padding-top: 20px;
-        border-radius: 10px;
-        text-align: center;
-    }
 
-    #onec-grid img{
-        width: 100%;
-        height: 100%;
-    }
-    #onec-grid video{
-        width: 100%;
-        height: 100%;
-    }
 
-    #nickgraph{
-        grid-column: 1/ span 2;
-        grid-row: 1;
-    }
-
-    #td{
-        grid-column: 1/ span 2;
-        grid-row: 4;
-    }
-
-    #kibble{
-        grid-column: 3;
-        grid-row: 1 / span 2 ;
-    }
-    #greensplash{
-        grid-column: 3;
-        grid-row: 3 / span 2  ;
-    }
-
-    #visual{
-        grid-column: 1 / span 2;
-        grid-row: 2 / span 2 ;  
-    }
-
-    #tdshow{
-        grid-column: 2 / span 2;
-        grid-row: 5 
-    }
-
-    #text{
-        grid-column: 1 / span 2;
-        grid-row: 6 / span 2;
-    }
 
 .project-flex {    
     display: flex;
@@ -185,7 +130,7 @@ footer{
         border-radius: 10px;
         color: #00A79D;
         background-color: #87D3E2;
-        padding: 10px;
+        /* padding: 10px; */
     }
 
     footer a{
