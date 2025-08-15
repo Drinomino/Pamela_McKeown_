@@ -147,7 +147,7 @@ h1 {
 
 
 #backbutt{
-  background-color: rgb(255, 217, 0);
+  background-color: #87D3E2;
   color: rgb(255, 89, 0);
   position:fixed;
   top:0px;
@@ -156,8 +156,10 @@ h1 {
   font-size: 30px;
 }
     #backbutt :hover{
-        background-color: rgb(255, 89, 0);
-        color: rgb(255, 217, 0);
+        background-color: rgb(255, 255, 255);
+        color:  #87D3E2;
+        padding: 10px;
+    border-radius: 17px;
     }
 footer{
     text-align: center;
