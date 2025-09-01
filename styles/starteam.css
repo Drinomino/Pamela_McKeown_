@@ -16,6 +16,19 @@ header{
     min-width: 300px;
 }
 
+.intro {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    /* margin-right: 40px; */
+    
+    color: #ff92ba;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
 footer{
     text-align: center;
 }
@@ -59,3 +72,4 @@ footer p{
         color:#ff7bab;
         background-color: #c1c1c1;
     }
+
