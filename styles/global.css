@@ -18,6 +18,14 @@ a {
     letter-spacing: 2px;
 }
 
+header{
+    width: 10%;
+    /* height: auto; */
+    /* margin: 0 45%; */
+    min-width: 300px;
+    max-width: 700px;
+}
+
 h1 {
 
     font-size: 5em;
@@ -120,6 +128,18 @@ h1 {
     }
     .art video :hover{
         transform: scale(150%);
+    }
+
+
+.back2school img{
+     width: 32%;
+    max-width: 700px;
+    margin: auto;
+     transition: transform .5s ease-in-out;
+}
+    .back2school :hover{
+        transform: scale(150%);
+        
     }
 
 .onec34 img{
