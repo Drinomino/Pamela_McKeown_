@@ -18,13 +18,13 @@ a {
     letter-spacing: 2px;
 }
 
-header{
+/* header{
     width: 10%;
-    /* height: auto; */
-    /* margin: 0 45%; */
+    height: auto;
+    margin: 0 45%;
     min-width: 300px;
-    max-width: 700px;
-}
+    max-width: 500px;
+} */
 
 h1 {
 
@@ -95,7 +95,8 @@ h1 {
 .logo{
     width: 30%;
     max-width: 250px;
-    align-items: center;
+    /* align-items: center; */
+    margin: 0 40%;
 }
 
 .intro {
@@ -144,9 +145,24 @@ h1 {
 
 .onec34 img{
     width: 32%;
-    max-width: 700px;
-    margin: auto;
+   max-width: 600px;
+    /* max-height: 500px; */
+    /* display: block;
+  margin: 0 auto; */
+    transition: transform .5s ease-in-out;
+
+	/* display: flex; */
+	/* flex-direction: row; */
+	/* flex-wrap: wrap; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* align-content: center; */
 }
+    .onec34 img:hover{
+        transform: scale(150%);
+        
+            
+    }
     .onec34 video{
     width: 32%;
     height: auto;
