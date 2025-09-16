@@ -95,7 +95,7 @@ h1 {
 .logo{
     width: 30%;
     max-width: 250px;
-    /* align-items: center; */
+    align-items: center;
     margin: 0 40%;
 }
 
