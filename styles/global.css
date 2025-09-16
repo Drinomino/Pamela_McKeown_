@@ -87,7 +87,7 @@ h1 {
         float: left;
         width: 30%;
         max-width: 300px;
-        margin: 0 10px;
+        margin: 0 0px;
         /* height: auto;
         margin-right: 1em;
         margin-bottom: .25em; */
@@ -112,6 +112,7 @@ h1 {
     padding: 15px;
     margin: 15px;
 }
+
 
 
 .art img{
@@ -318,7 +319,7 @@ footer{
     }  
   .art img{
    
-    min-width: 120px;
+    min-width: 100px;
 }
 
 .onec34 img{
@@ -329,4 +330,8 @@ footer{
     .onec34 img{
     height: 80vw;
 }
+
+html{
+    margin: 10 0px;
+  }
 }
