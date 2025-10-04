@@ -34,6 +34,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     background-color: #87D3E2;
+    /* background-color: rgb(203, 241, 255); */
     padding: 10px;
     border-radius: 100px;
     display: flex;
@@ -145,6 +146,37 @@ h1 {
         transform: scale(150%);
         
     }
+
+.sokoban{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;  
+}
+
+.sokoban img{
+   
+   height: 30vw;
+   max-height: 400px;
+
+    transition: transform .5s ease-in-out;
+}
+    .sokoban img:hover{
+        transform: scale(150%);
+     
+    }
+.sokoban video{
+   
+   height: 30vw;
+   max-height: 400px;
+
+    transition: transform .5s ease-in-out;
+}
+ .sokoban video:hover{
+        transform: scale(150%);
+     
+    }
 .onec34{
     display: flex;
     flex-direction: row;
@@ -204,6 +236,10 @@ h1 {
     .onechance video{
     width: 32%;
     height: auto;
+    }
+    .onechance video:hover{
+    transform: scale(150%); 
+            
     }
 /* .project-flex {    
     display: flex;
@@ -275,10 +311,17 @@ footer{
 }
 
 .projicon{
-    width: 20%;
+    width: 10%;
 }
 .projlogo{
-     width: 60%;
+     width: 40%;
+     padding:0%;
+}
+
+@media (max-width: 1300px) {
+.sokoban img{
+    height: 25vw;
+}
 }
 
 @media (max-width: 1000px) {
@@ -295,6 +338,7 @@ footer{
     line-height: 25px;
 }
 }
+
 
 
 @media (max-width: 700px) {
@@ -325,9 +369,15 @@ footer{
 .onec34 img{
     height: 40vw;
 }
+.sokoban img{
+    height: 25vw;
+}
 }
 @media (max-width: 450px) {
     .onec34 img{
+    height: 80vw;
+}
+.onec34 img{
     height: 80vw;
 }
 
