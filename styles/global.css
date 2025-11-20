@@ -322,6 +322,9 @@ footer{
 .sokoban img{
     height: 25vw;
 }
+.sokoban video{
+    height: 25vw;
+}
 }
 
 @media (max-width: 1000px) {
